@@ -1,4 +1,5 @@
-
+Bao Li bli621
+Helen Vincent hvin738
 
 The NZ Government has implemented the requirement for all travelers to have a voucher confirming their place in managed isolation quarantine (MIQ) facilities before boarding their flight. Write the code snippets to implement the queue, add/remove from the queue, find the number of travelers in the queue, and find if it is empty.
 
