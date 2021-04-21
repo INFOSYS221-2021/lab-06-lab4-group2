@@ -1,1 +1,38 @@
 
+
+The NZ Government has implemented the requirement for all travelers to have a voucher confirming their place in managed isolation quarantine (MIQ) facilities before boarding their flight. Write the code snippets to implement the queue, add/remove from the queue, find the number of travelers in the queue, and find if it is empty.
+
+What is the type of collection used in the exercise?
+Queue.
+What are the different ways of iterating through a collection?
+For loop, while loop. But NA in this example
+How do you find out the size of a collection?
+For this example, qsize finds the size of a collection 
+# define a function to find queue length
+def fifoLength(queue):
+return queue.qsize()
+ 
+How do you add an item to a collection? What happens if you try to add an item to a collection that is already full?
+def fifoEnqueue(queue,item):
+  return queue.put(item)
+This function enables data to be added at the end of a queue. Add an item to a collection that is already full will cause an overflow.
+How do you remove an item to a collection? What happens if you try to remove an item that does not exist in the collection?
+	To remove from the front of a queue, there will be a timeout if the item does 	not exist
+	queue.get();
+Change the implementation of a FIFO queue to a LIFO queue in 5.6.1.
+Import Queue, use LifoQueue() class from the queue module 	
+NewIQ is a small health provider in Newmarket, Auckland, NZ. Their business has 10 patient beds available for patients. Write a small code snippet to ensure the receptionist can assign a bed to a patient when a patient arrives, assign a bed to a patient when a doctor calls ahead of time, can tell if there are any beds available.
+
+Doing Java for this one. 
+
+What is the type of collection used in the exercise?
+List 
+What are the different ways of iterating through a collection?
+In this example, for and while loop are used. 
+
+How do you find out the size of a collection?
+array.length
+How do you add an item to a collection? What happens if you try to add an item to a 
+collection that is already full?
+
+How do you remove an item to a collection? What happens if you try to remove an item that does not exist in the collection?
