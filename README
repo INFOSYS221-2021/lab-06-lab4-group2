@@ -22,16 +22,17 @@ How do you remove an item to a collection? What happens if you try to remove an 
 Change the implementation of a FIFO queue to a LIFO queue in 5.6.1.
 Import Queue, use LifoQueue() class from the queue module 	
 NewIQ is a small health provider in Newmarket, Auckland, NZ. Their business has 10 patient beds available for patients. Write a small code snippet to ensure the receptionist can assign a bed to a patient when a patient arrives, assign a bed to a patient when a doctor calls ahead of time, can tell if there are any beds available.
-
-Doing Java for this one. 
+ 
 
 What is the type of collection used in the exercise?
 List 
+
 What are the different ways of iterating through a collection?
 In this example, for and while loop are used. 
 
 How do you find out the size of a collection?
 array.length
+
 How do you add an item to a collection? What happens if you try to add an item to a 
 collection that is already full?
 
